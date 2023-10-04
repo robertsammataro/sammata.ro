@@ -1,3 +1,9 @@
+.debug {
+    background-color: yellow;
+    border-style: solid;
+    border-color: red;
+}
+
 .global {
     font-family: "Helvetica";
 }
