@@ -3,26 +3,34 @@
 <html>
   <link rel="stylesheet" href="style.css" />
 
+  <script src="js/home.js"></script> 
+
   <head>
     <title>Sammata.ro | HOME</title>
   </head>
 
   <body>
-    <div class="global" style="display: flex; padding: 10px">
+    <div class="global" style="display: flex; padding: 10px; padding-top: 50px;">
       <div
         class="debug"
         style="text-align: center; width: 25%; border-radius: 10px; float: left"
       >
         <!-- Photo Container -->
-        <img src="assets/pfp_sq.jpg" style="width: 50%; border-radius: 5px" />
+        <div style="padding-left: 20px; padding-right: 20px;">
+        
+          <div>
+            <img src="assets/pfp_sq.jpg" style="border-radius: 5px; margin-top: -40px; width: 100%;" />
+          </div>
+          
+        </div>
+        
 
         <!-- Name -->
         <h3>Robby<br />Sammataro</h3>
 
         <!-- Container for Social Icons -->
-        <div style="display: flex; margin-top: 10%; width: 100%">
-          <div style="width: 25%"></div>
-
+        <div style="display: flex; margin: 0 auto; width: max-content" class="debug">
+          
           <!-- LinkedIn -->
           <div
             style="
@@ -30,6 +38,7 @@
               height: 30px;
               border-radius: 5px;
             "
+            id="li-button"
           >
             <img
               src="assets/linkedin.png"
@@ -64,7 +73,6 @@
             />
           </div>
 
-          <div style="width: 25%"></div>
         </div>
       </div>
 
@@ -76,10 +84,15 @@
           background-color: lightgray;
           border-width: 1px;
           text-align: center;
+          padding: 10px;
+          margin-left: 20px;
         "
       >
         <h1>Sammata.ro</h1>
         <p>Welcome to Robby Sammataro's Home Page! <b>Work in Progress!</b></p>
+        <hr>
+        <h3>Hi there!</h3>
+      <p>My name's Robby Sammataro and I'm a Senior Computer Science major studying at the University of Delaware! This website is a place for me to learn more about web dev on a live website!</p>
       </div>
     </div>
   </body>
