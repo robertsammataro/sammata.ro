@@ -2,112 +2,73 @@
 
 <html>
   <link rel="stylesheet" href="style.css" />
-  <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+  <link
+    href="https://fonts.googleapis.com/css?family=Open Sans"
+    rel="stylesheet"
+  />
 
-
-  <script src="js/home.js"></script> 
+  <script src="js/home.js"></script>
 
   <head>
     <title>Sammata.ro | HOME</title>
   </head>
 
-  <body style="background-color: #cccccc; background-image: url(./assets/bg.jpg)">
-    <div class="global" style="display: flex; padding: 10px; padding-top: 50px;">
-      <div
-        style="text-align: center; width: 20%; border-radius: 10px; float: left; height: max-content; padding-bottom: 10px; box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); background-color: rgb(223, 218, 218);"
-      >
+  <body
+    style="background-color: #cccccc; background-image: url(./assets/bg.jpg)"
+  >
+    <div class="global">
+      <!-- Left Panel -->
+      <div class="left-panel">
         <!-- Photo Container -->
-        <div style="padding-left: 20px; padding-right: 20px;">
-        
+        <div style="padding-left: 20px; padding-right: 20px">
           <div>
-            <img src="assets/pfp_sq.jpg" style="border-radius: 10px; margin-top: -40px; width: 100%; max-width: 150px; box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);" />
+            <img src="assets/pfp_sq.jpg" class="headshot" />
           </div>
-          
         </div>
-        
 
         <!-- Name -->
         <div style="margin-top: 10px; margin-bottom: 10px">
-          <p style="margin: 0px; font-size: 24px;">Robby</p>
-          <p style="margin: -5px; font-size: 24px; font-weight:900">Sammataro</p>
-            <p style="margin: 5px;">he/him</p>
+          <p style="margin: 0px; font-size: 24px">Robby</p>
+          <p style="margin: -5px; font-size: 24px; font-weight: 900">
+            Sammataro
+          </p>
+          <p style="margin: 5px">he/him</p>
         </div>
-        
 
         <!-- Container for Social Icons -->
         <div style="display: flex; margin: 0 auto; width: max-content">
-          
           <!-- LinkedIn -->
-          <div
-            style="
-              background-color: rgb(5, 15, 95);
-              height: 30px;
-              border-radius: 5px;
-            "
-            id="li-button"
-          >
-          <a target="_blank" href="https://www.linkedin.com/in/robertsammataro">
-            <img
-            src="assets/linkedin.png"
-            style="
-              display: block;
-              height: 70%;
-              margin-left: 15px;
-              margin-right: 15px;
-              margin-top: 10%;
-            "
-          />
-
-          </a>
-            
+          <div class="social-icon-container" id="li-button">
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/robertsammataro"
+            >
+              <img src="assets/linkedin.png" class="social-icon" />
+            </a>
           </div>
 
           <div style="width: 10px"></div>
 
-          <div
-            style="
-              background-color: rgb(5, 15, 95);
-              height: 30px;
-              border-radius: 5px;
-            "
-          >
-          <a target="_blank" href="mailto:robby@sammata.ro">
-            <img
-              src="assets/email.png"
-              style="
-                display: block;
-                height: 70%;
-                margin-left: 15px;
-                margin-right: 15px;
-                margin-top: 10%;
-              "
-            />
-          </a>
-            
+          <div class="social-icon-container">
+            <a target="_blank" href="mailto:robby@sammata.ro">
+              <img src="assets/email.png" class="social-icon" />
+            </a>
           </div>
-
         </div>
 
-
+        <hr />
       </div>
 
-      <div
-        style="
-          width: 80%;
-          border-style: solid;
-          border-radius: 10px;
-          background-color: lightgray;
-          border-width: 1px;
-          text-align: center;
-          padding: 10px;
-          margin-left: 20px;
-        "
-      >
+      <div class="right-panel">
         <h1>Sammata.ro</h1>
         <p>Welcome to Robby Sammataro's Home Page! <b>Work in Progress!</b></p>
-        <hr>
+        <hr />
         <h3>Hi there!</h3>
-      <p>My name's Robby Sammataro and I'm a Senior Computer Science major studying at the University of Delaware! This website is a place for me to learn more about web dev on a live website!</p>
+        <p>
+          My name's Robby Sammataro and I'm a Senior Computer Science major
+          studying at the University of Delaware! This website is a place for me
+          to learn more about web dev on a live website!
+        </p>
       </div>
     </div>
   </body>

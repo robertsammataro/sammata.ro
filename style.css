@@ -1,9 +1,57 @@
 .debug {
-    background-color: yellow;
-    border-style: solid;
-    border-color: red;
+  background-color: yellow;
+  border-style: solid;
+  border-color: red;
+}
+
+.left-panel {
+  text-align: center;
+  width: 20%;
+  min-width: fit-content;
+  border-radius: 10px;
+  float: left;
+  height: max-content;
+  padding-bottom: 10px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  background-color: rgb(223, 218, 218);
+}
+
+.right-panel {
+  width: 80%;
+  border-style: solid;
+  border-radius: 10px;
+  background-color: rgb(223, 218, 218);
+  border-width: 1px;
+  text-align: center;
+  padding: 10px;
+  margin-left: 20px;
 }
 
 .global {
-    font-family: "Open Sans";
+  font-family: "Open Sans";
+  display: flex;
+  padding: 10px;
+  padding-top: 50px;
+}
+
+.headshot {
+  border-radius: 10px;
+  margin-top: -40px;
+  width: 100%;
+  max-width: 150px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.social-icon {
+  display: block;
+  height: 70%;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 10%;
+}
+
+.social-icon-container {
+  background-color: rgb(5, 15, 95);
+  height: 30px;
+  border-radius: 5px;
 }
